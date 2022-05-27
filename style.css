@@ -1,0 +1,15 @@
+p {
+    transition: 3s;
+    line-height: 35px;
+    font-family: sans-serif;
+    color: #191919;
+}
+
+.footer-text {
+    color: white;
+}
+
+body {
+    transition: 5s;
+    background-color: #c8c8c8;
+}
