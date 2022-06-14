@@ -1,3 +1,4 @@
+
 p {
     transition: 3s;
     line-height: 35px;
@@ -16,4 +17,61 @@ body {
 
 .card {
     box-shadow: 2px -2px 10px 2px rgba(0,0,0,0.81);
+}
+
+.login {
+    margin-left: 250px;
+}
+
+.dropdow {
+    cursor: pointer;
+    width: 33%;
+}
+
+@media (width: 1440px){
+    .carrosel-img {
+        height: 580px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1350px){
+    .carrosel-img {
+        height: 480px;
+    }
+
+    .login {
+        margin-left: 0;
+    }
+
+    .dropdow {
+        width: 33%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+    .carrosel-img {
+        height: 480px;
+    }
+
+    .login {
+        margin-left: 0;
+    }
+
+    .dropdow {
+        width: 33%;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 767px){
+    .carrosel-img {
+        height: 350px;
+    }
+
+    .login {
+        margin-left: 0;
+    }
+
+    .dropdow {
+        width: 100%;
+    }
 }
